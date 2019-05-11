@@ -1,4 +1,9 @@
 {
   "name" : "union-template",
-  "rules": [ ]
+  "rules": [     {
+      "sites": ["*://www.notarealwebsite.com/*"],
+      "actions": [
+        { "action": "block", "message": "not okay" }
+      ]
+}]
 }
